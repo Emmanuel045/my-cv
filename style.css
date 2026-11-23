@@ -1,0 +1,85 @@
+*{
+    margin: 20px;
+    padding: 0px;
+    background-color: black;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h3{
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 25px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    font-size: 25px;
+}
+
+.Professional-Summary{
+    margin: 0;
+}
+
+.Professional-Summary p{
+    font-size: 25px;
+}
+
+.Education{
+    margin: 0;
+}
+
+.Education b{
+    margin: 0;
+}
+
+.Certifications{
+    margin: 0;
+}
+
+.Projects{
+    margin: 0;
+}
+
+.Projects h4{
+    font-size: 30px;
+}
+
+.Projects ul{
+    font-size: 25px;
+}
+
+.WhatsApp-Interface-Clone{
+    margin: 0;
+}
+
+.UGOT-Robot-Obstacle-Avoidance{
+    margin: 0;
+}
+
+.Blender-Simulation-and-Animation-Projects{
+    margin: 0;
+}
+
+.Technical-Skills{
+    margin: 0;
+}
+
+.Additional-Information{
+    margin: 0;
+}
