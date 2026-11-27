@@ -39,6 +39,12 @@ h3{
     text-decoration: underline;
 }
 
+.download{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
 .download-btn{
     display: flex;
     justify-content: center;
