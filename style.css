@@ -1,84 +1,55 @@
 *{
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 20px;
-}
-
-body{
-    font-family: 'Times New Roman', Times, serif;
+    margin: 10px auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 600px;
+    background: rgb(11, 221, 158);
+    gap: 20px;
+    font-family: "Inter";
     line-height: 1.5;
-    width: 100vh;
-}
-
-h1{
-    font-size: 60px;
-}
-
-h3{
-    font-size: 40px;
-    text-decoration: underline;
-}
-
-p{
-    font-size: 25px;
+    text-align: justify;
 }
 
 a{
     color: black;
     text-decoration: none;
+    font-family: "Inter";
 }
 
 ul{
+    margin: 0 20px;
+}
+
+h1{
+    font-size: 34px;
+}
+
+h3{
     font-size: 25px;
+    text-decoration: underline;
 }
 
-.Professional-Summary{
-    margin: 0;
+.download-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100px;
 }
 
-.Professional-Summary p{
-    font-size: 25px;
-}
-
-.Education{
-    margin: 0;
-}
-
-.Education b{
-    margin: 0;
-}
-
-.Certifications{
-    margin: 0;
-}
-
-.Projects{
-    margin: 0;
-}
-
-.Projects h4{
-    font-size: 30px;
-}
-
-.Projects ul{
-    font-size: 25px;
-}
-
-.WhatsApp-Interface-Clone{
-    margin: 0;
-}
-
-.UGOT-Robot-Obstacle-Avoidance{
-    margin: 0;
-}
-
-.Blender-Simulation-and-Animation-Projects{
-    margin: 0;
-}
-
-.Technical-Skills{
-    margin: 0;
-}
-
-.Additional-Information{
-    margin: 0;
+.download-btn:hover{
+    background-color: aqua;
+    transition: 0.5s;
 }
